@@ -220,6 +220,7 @@ footer .container{
     height: 100vh;
     padding-top: 80px;
     transition: all 0.3s ease;
+    display: none;
    } 
    .nav-list.active{
     right: 0;
