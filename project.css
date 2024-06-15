@@ -12,7 +12,6 @@
 body {
   font-family: "DM Sans", sans-serif;
   color: var(--primary);
-  overflow-x: hidden;
 }
 
 #main {
@@ -39,6 +38,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .nav-list {
