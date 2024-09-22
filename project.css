@@ -30,8 +30,8 @@ a {
   padding: 16px;
   margin: auto;
 }
-section{
-  margin:80px auto ;
+section {
+  margin: 80px auto;
 }
 
 nav {
@@ -86,96 +86,94 @@ nav {
   margin-top: -20px;
 }
 .main-content p {
-    max-width: 250px;
-    margin-bottom:10px ;
+  max-width: 250px;
+  margin-bottom: 10px;
 }
-.menu-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 30px;
-    display: none;
+.menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  display: none;
 }
-.section-title h1{
+.section-title h1 {
   font-size: 50px;
   text-align: center;
 }
-.section-title .line{
+.section-title .line {
   width: 150px;
   height: 4px;
   border: 10px;
   background: var(--secondary);
   margin: auto;
 }
-.services{
+.services {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
-.service{
+.service {
   width: 350px;
 }
-.service img{
-max-width: 100%;
-border-radius: 5px;
-transition: transform 0.3s;
+.service img {
+  max-width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s;
 }
-.service img:hover{
+.service img:hover {
   transform: scale(1.05);
 }
-#testimonial{
+#testimonial {
   background: rgb(220, 220, 250);
-  
 }
-#testimonial .container{
+#testimonial .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 600px;
   gap: 30px;
   padding: 50px 16px;
-
 }
-#testimonial h1{
+#testimonial h1 {
   font-size: 50px;
-  font-family: 'Forum', sans-serif;
+  font-family: "Forum", sans-serif;
   text-align: center;
 }
-#testimonial .profile{
+#testimonial .profile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-#about-us .about-container{
-display: flex;
-align-items: center;
-justify-content: space-around;
-gap: 120px;
+#about-us .about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 120px;
+  padding: 20px;
 }
-#about-us .about-container .about-content{
+#about-us .about-container .about-content {
   max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: start;
 }
-#about-us .about-container .about-content h1{
-  font-family: 'Forum',sans-serif;
+#about-us .about-container .about-content h1 {
+  font-family: "Forum", sans-serif;
   font-size: 30px;
 }
 
-#questions{
+#questions {
   min-height: 500px;
   background-image: url(/img/main-2.png);
   background-position: bottom center;
   background-size: cover;
 }
-#questions .container{
+#questions .container {
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -185,60 +183,57 @@ gap: 120px;
   height: 500px;
   text-align: center;
 }
-#question h1{
+#question h1 {
   font-size: 50px;
 }
-footer{
+footer {
   margin-top: -60px;
 }
-footer .container{
+footer .container {
   display: flex;
   padding: 20px 16px;
   justify-content: space-between;
   align-items: center;
 }
-.footer-links{
+.footer-links {
   display: flex;
   align-items: center;
   gap: 16px;
   list-style: none;
 }
 
-
-
-@media screen and (max-width:520px){
-    .menu-btn{
-        display: block;
-    }
-   .nav-list{
+@media screen and (max-width: 520px) {
+  .menu-btn {
+    display: block;
+  }
+  .nav-list {
     flex-direction: column;
     background: gray;
     position: absolute;
     top: 0;
     right: -900px;
-    width:80% ;
+    width: 80%;
     height: 100vh;
     padding-top: 80px;
     transition: all 0.3s ease;
     display: none;
-   } 
-   .nav-list.active{
+  }
+  .nav-list.active {
     right: 0;
-   }
-   .nav-list li:not(:last-child) {
-    text-align:left;
+  }
+  .nav-list li:not(:last-child) {
+    text-align: left;
     width: 100%;
     padding: 10px 30px;
-    border-bottom:1px solid var(--white);
-   }
-   #about-us .about-container{
+    border-bottom: 1px solid var(--white);
+  }
+  #about-us .about-container {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
-
-   }
-   footer .container{
+  }
+  footer .container {
     flex-direction: column;
     gap: 16px;
-   }
+  }
 }
