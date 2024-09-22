@@ -167,6 +167,9 @@ nav {
   font-size: 30px;
 }
 
+.about-image {
+  overflow: hidden;
+}
 #questions {
   min-height: 500px;
   background-image: url(/img/main-2.png);
@@ -201,6 +204,12 @@ footer .container {
   gap: 16px;
   list-style: none;
 }
+@media screen and (max-width: 672px) {
+  .about-image {
+    overflow: hidden;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 520px) {
   .menu-btn {
@@ -231,6 +240,7 @@ footer .container {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
+    width: 100%;
   }
   footer .container {
     flex-direction: column;
