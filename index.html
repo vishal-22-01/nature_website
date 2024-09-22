@@ -95,10 +95,10 @@
           </p>
           <button class="btn btn-primary">Let's Talk Now</button>
         </div>
-      <div class="about-image">
-        <img src="/img/about.png" alt="" />
+        <div class="about-image">
+          <img src="/img/about.png" alt="" />
+        </div>
       </div>
-    </div>
     </section>
     <section id="questions">
       <div class="container">
@@ -128,7 +128,11 @@
 
       menuBtn.addEventListener("click", function () {
         navList.classList.toggle("active");
-        navList.style.display='flex'
+        if (navList.style.display === "flex") {
+          navList.style.display = "none";
+        } else {
+          navList.style.display = "flex";
+        }
       });
     </script>
   </body>
